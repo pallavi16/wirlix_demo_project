@@ -1,0 +1,296 @@
+
+ body
+ {overflow-x:hidden;font-family:"Abel";webkit-tap-highlight-color:#fff}.btn-primary,.btn-xl,h1,h2,h3,h4,h5,h6{font-family:Abel,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}.text-muted{color:#777}.text-primary,a{color:#fff}p{font-size:14px;}p.large{font-size:16px}a,a.active,a:active,a:focus,a:hover{outline:0}a.active,a:active,a:focus,a:hover{color:#000}.img-centered{margin:0 auto}.bg-light-gray{background-color:#eee}.bg-darkest-gray{background-color:#222}
+ .btn-primary{color:#fff;background-color:#fff;border-color:#000}.btn-primary.active,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open .dropdown-toggle.btn-primary{color:#000;background-color:#fff;}
+ 
+
+ .navbar-custom{background-color:#222;border-color:transparent; float: right;}
+ .navbar-custom .navbar-brand{color:#fed136;font-family:"Abel","Helvetica Neue",Helvetica,Arial,cursive}
+ .navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover{color:background-color;}
+ .navbar-custom .nav li a,.navbar-custom .navbar-toggle{font-family:Abel,"Helvetica Neue",Helvetica,Arial,sans-serif;color:transparent;text-transform:uppercase}
+.navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover{background-color:#222}.navbar-custom .nav li a{font-weight:400;letter-spacing:1px}
+ .navbar-custom .nav li a:focus,.navbar-custom .nav li a:hover{color:#222;outline:0}.navbar-custom .navbar-nav>.active>a{border-radius:0;color:#fff;background-color:transparent;}
+ .navbar-custom .navbar-nav>.active>a:focus,.navbar-custom .navbar-nav>.active>a:hover{color:transparent;background-color:transparent; }@media (min-width:768px){.navbar-custom{background-color:transparent;padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s;border:none}
+ .navbar-custom .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
+ .navbar-custom .navbar-nav>.active>a{border-radius:2px}.navbar-custom.affix{background-color:#222;padding:2px 0}.navbar-custom.affix .navbar-brand{font-size:1.5em}}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+ @media (min-width:768px){
+ section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}
+ section h3.section-subheading{font-size:16px;text-transform:none;font-weight:400;margin-bottom:75px}
+ @media (min-width:768px){section{padding:150px 0}}
+
+ .section-heading{margin:15px 0;text-transform:none; color: #fff; letter-spacing: 0.2555em;
+  }
+
+ .section-subheading{
+ 	color: #fff;
+ 	font-family: "Source Code Pro";
+ 	padding: 10px 0px;
+ 	text-decoration: none;
+ 	line-height: 40px;
+ }
+
+#home{
+	background-color: #6abeb1;
+}
+
+#launch{
+    background-color: #6abeb1;
+}
+
+
+
+.page-scroll li {
+    float: right;
+}
+ .team-member{text-align:center;margin-bottom:50px}.team-member img{margin:0 auto;border:7px solid #fff}
+ .team-member h4{margin-top:25px;margin-bottom:0;text-transform:none}
+ .team-member p{margin-top:0}
+
+ section#contact{background-color:#222;background-image:url(../img/protest2.jpg);
+ 	background-repeat:no-repeat; max-width: 100%; height: auto;}
+ section#contact .section-heading{color:#fff}
+ 
+ section#contact ::-webkit-input-placeholder{font-family:Abel,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;color:#eee}
+ section#contact :-moz-placeholder{font-family:Abel,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;color:#eee}
+ section#contact ::-moz-placeholder{font-family:Abel,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;color:#eee}
+ section#contact :-ms-input-placeholder{font-family:Abel,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;color:#eee}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+ 
+    background: #000;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+footer{
+	background: #000;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	font-family: "Source Code Pro";
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+    background: #000;
+    text-align: center;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000;
+    font-size: 25px;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000;
+    font-size: 25px;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000;
+    font-size: 25px;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+.foo-text{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+   
+}
+
+.foo-text h3, h4{
+	font-family: "Source Code Pro";
+	letter-spacing: 0.2556em;
+	font-weight: 100;
+
+}
+
+
+  section.cta{-webkit-background-size:cover;-moz-background-size:cover;
+  	background-size:cover;-o-background-size:cover;background-position:center;
+  	background-image:url(../img/protest2.jpg);
+    max-height: 300%;}
+  
+  section.cta .cta-content h2{ padding-top:40px;   font-weight: 400; padding-bottom:20px;color:#fff; font-size: 80px; letter-spacing: 0.2556em; }
+  section.cta .cta-content p{font-size: 18px; text-align:center;margin:20px;color: #fff;font-family: "Source Code Pro";}
+
+
+
+#contain {
+    
+    height:100%;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#img {
+    padding:0;
+    margin:0;
+    width:35%;
+    height: 320px;
+    min-width:350px;   
+    vertical-align:bottom;
+    float: left;
+}
+p {
+    width:49%;
+    min-width:350px;
+    display:inline-block;
+ 	float: left;
+    padding:10px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    color:#fff;
+    vertical-align: text-top;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+#team{
+	background-color: #6abeb1;
+}
+
+.section-heading {
+	color: #fff;
+}
+
+.content {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+
+
+}
+
+.content__heading {
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 96px;
+  letter-spacing: 0.0555556em;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.content__teaser {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.content__cta {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 2px #fff;
+  background-color: transparent;
+  transition-timing-function: linear;
+  transition-delay: initial;
+  transition-property: background-color;
+  transition-duration: 0.1s;
+   text-transform: uppercase;
+  font-family: "Source Code Pro";
+}
+
+a:hover{
+    background-color: white;
+}
